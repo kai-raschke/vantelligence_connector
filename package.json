@@ -10,11 +10,14 @@
   "dependencies": {
     "bme280-sensor": "^0.1.7",
     "chalk": "^5.0.0",
-    "i2c-bus": "^5.2.2",
+    "dotenv": "^16.0.1",
     "mqtt": "^4.3.5",
     "nodemon": "^2.0.15",
     "pigpio": "^3.3.1",
-    "serialport": "^9.2.8",
+    "serialport": "^9.2.8"
+  },
+  "optionalDependencies": {
+    "i2c-bus": "^5.2.2",
     "socketcan": "^3.0.0"
   }
 }
